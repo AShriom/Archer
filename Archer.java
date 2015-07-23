@@ -117,6 +117,10 @@ class Archer implements MouseListener, MouseMotionListener,ActionListener
 			level=1;
 			lv.setText("Level: "+level);
 			wnls.setText("Good Luck!!");
+			man.setBounds(15,450,60,100);
+			base.add(man);
+			base.revalidate();
+			base.repaint();
 		}
 		if((JButton)e.getSource()==quit)
 		{
