@@ -75,6 +75,10 @@ class Target extends Thread
 			Archer.base.remove(obsttwo[0]);
 			Archer.base.remove(obsttwo[1]);
 			Archer.base.remove(obsttwo[2]);
+			Archer.base.add(obstone[0]);
+			Archer.base.add(obstone[1]);
+			Archer.base.add(obstone[2]);
+			Archer.base.add(obstone[3]);
 			Archer.base.revalidate();
 			Archer.base.repaint();
 			score=0;
